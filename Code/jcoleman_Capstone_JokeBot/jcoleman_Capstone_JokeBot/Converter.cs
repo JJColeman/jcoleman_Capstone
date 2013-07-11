@@ -5,11 +5,7 @@ using System.Text;
 
 namespace jcoleman_Capstone_JokeBot
 {
-    class Program
+    class Converter
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
