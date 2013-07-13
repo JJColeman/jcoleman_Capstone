@@ -7,6 +7,16 @@ namespace jcoleman_Capstone_JokeBot
 {
     class Responses
     {
+        public Responses() { }
 
+        public void KnockKnock()
+        {
+
+        }
+
+        public void Converter()
+        {
+
+        }
     }
 }

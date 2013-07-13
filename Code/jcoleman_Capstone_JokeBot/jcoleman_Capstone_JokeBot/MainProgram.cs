@@ -18,7 +18,11 @@ namespace jcoleman_Capstone_JokeBot
             while (dontExit)
             {
                 string userInput = Console.ReadLine();
-                Console.WriteLine(userInput);
+                if(userInput.Equals("exit"))
+                {
+                    dontExit = false;
+                }
+                bot.Reply(userInput);
             }
         }
     }

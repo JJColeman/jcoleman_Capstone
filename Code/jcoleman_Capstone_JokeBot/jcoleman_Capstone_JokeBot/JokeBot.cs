@@ -9,7 +9,17 @@ namespace jcoleman_Capstone_JokeBot
     {
         public JokeBot() { }
 
-        public void Reply()
+        public void Reply(string userInput)
+        {
+
+        }
+
+        public void Converter()
+        {
+
+        }
+
+        public string Response()
         {
 
         }
