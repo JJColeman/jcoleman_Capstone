@@ -9,14 +9,19 @@ namespace jcoleman_Capstone_JokeBot
     {
         public Responses() { }
 
-        public void KnockKnock()
+        public string Knocks(string userInput)
         {
 
         }
 
-        public void Converter()
+        public string Intros(string userInput)
         {
+            
+        }
 
+        public string Questions(string userInput)
+        {
+            
         }
     }
 }

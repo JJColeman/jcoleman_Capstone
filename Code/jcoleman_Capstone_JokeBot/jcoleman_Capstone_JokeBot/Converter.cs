@@ -9,6 +9,7 @@ namespace jcoleman_Capstone_JokeBot
     {
         public Converter()
         {
+
         }
 
         public bool checkForReduce(Stack<Symbols> stack)

@@ -50,11 +50,12 @@
     <Compile Include="Recognized Words\Pronouns.cs" />
     <Compile Include="Recognized Words\Symbols.cs" />
     <Compile Include="Recognized Words\Verbs.cs" />
-    <Compile Include="Trees\GramarTree.cs" />
     <Compile Include="JokeBot.cs" />
-    <Compile Include="Trees\KnockKnockTree.cs" />
+    <Compile Include="Replies\Introduction.cs" />
+    <Compile Include="Replies\KnockKnock.cs" />
     <Compile Include="MainProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Replies\Question.cs" />
     <Compile Include="Responses.cs" />
   </ItemGroup>
   <ItemGroup />
