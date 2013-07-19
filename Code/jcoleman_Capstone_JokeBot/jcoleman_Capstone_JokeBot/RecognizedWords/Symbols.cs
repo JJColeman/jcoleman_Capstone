@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace jcoleman_ChatbotGrammar
+namespace jcoleman_Capstone_JokeBot.RecognizedWords
 {
     enum Symbols
     {
@@ -14,6 +14,8 @@ namespace jcoleman_ChatbotGrammar
         Preposition,
         Predicate,
         Subject,
-        Sentence
+        Sentence,
+        Greeting,
+        KnockKnock
     }
 }

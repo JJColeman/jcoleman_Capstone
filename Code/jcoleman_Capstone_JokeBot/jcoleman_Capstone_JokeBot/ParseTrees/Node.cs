@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace jcoleman_Capstone_JokeBot.Replies
+namespace jcoleman_Capstone_JokeBot.ParseTrees
 {
-    class KnockKnockTree
+    class Node
     {
-
+        
     }
 }

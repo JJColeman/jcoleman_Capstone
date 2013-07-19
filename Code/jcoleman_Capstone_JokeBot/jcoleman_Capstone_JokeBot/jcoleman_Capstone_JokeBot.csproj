@@ -44,12 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Converter.cs" />
-    <Compile Include="Recognized Words\Articles.cs" />
-    <Compile Include="Recognized Words\Nouns.cs" />
-    <Compile Include="Recognized Words\Preposition.cs" />
-    <Compile Include="Recognized Words\Pronouns.cs" />
-    <Compile Include="Recognized Words\Symbols.cs" />
-    <Compile Include="Recognized Words\Verbs.cs" />
+    <Compile Include="ParseTrees\GreetingTree.cs" />
+    <Compile Include="ParseTrees\KnockKnockTree.cs" />
+    <Compile Include="ParseTrees\Node.cs" />
+    <Compile Include="ParseTrees\Tree.cs" />
+    <Compile Include="RecognizedWords\Articles.cs" />
+    <Compile Include="RecognizedWords\Greeting.cs" />
+    <Compile Include="RecognizedWords\Nouns.cs" />
+    <Compile Include="RecognizedWords\Preposition.cs" />
+    <Compile Include="RecognizedWords\Pronouns.cs" />
+    <Compile Include="RecognizedWords\Symbols.cs" />
+    <Compile Include="RecognizedWords\Verbs.cs" />
     <Compile Include="JokeBot.cs" />
     <Compile Include="Replies\Introduction.cs" />
     <Compile Include="Replies\KnockKnock.cs" />

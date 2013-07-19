@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using jcoleman_Capstone_JokeBot.RecognizedWords;
 
 namespace jcoleman_Capstone_JokeBot
 {
@@ -35,6 +36,7 @@ namespace jcoleman_Capstone_JokeBot
                     bool isVerb = Enum.IsDefined(typeof(Verbs), seperatedWords[stringsleft]);
                     bool isNoun = Enum.IsDefined(typeof(Nouns), seperatedWords[stringsleft]);
                     bool isArticle = Enum.IsDefined(typeof(Articles), seperatedWords[stringsleft]);
+                    bool isGreeting = Enum.IsDefined(typeof(Greeting), seperatedWords[stringsleft]);
 
                     if (stack.Count > 0)
                     {
@@ -119,15 +121,21 @@ namespace jcoleman_Capstone_JokeBot
                         notReduceOnce = false;
                     }
 
+                    else if (isGreeting)
+                    {
+                        stack.Push(Symbols.Greeting);
+                        notReduceOnce = false;
+                    }
+
                     else
                     {
-                        notReduceOnce = false;
+                        
                     }
                 }
                 stringsleft++;
             }
 
-            if (stack.Contains(Symbols.Sentence) && stack.Count == 1)
+            if (stack.Contains(Symbols.Greeting) && stack.Count == 1 )
             {
                 foundSentence = true;
             }

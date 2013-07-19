@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using jcoleman_Capstone_JokeBot.Replies;
 
 namespace jcoleman_Capstone_JokeBot
 {
@@ -15,36 +16,42 @@ namespace jcoleman_Capstone_JokeBot
 
         public void Reply(string userInput)
         {
-           bool isSentence = Converter(userInput);
-           Responses response = new Responses();
+            Converter converter = new Converter();
+            string[] splitUserInput = userInput.Split(' ');
+            bool isSentence = converter.checkForSentence(splitUserInput);
+            Responses response = new Responses();
+            string whatToSay = "";
 
-           if (isSentence)
-           {
-               string whatToSay = "";
-               whatToSay = response.Intros;
-
-               if (!isEmpty(whatToSay))
-               {
-                   Console.WriteLine(whatToSay);
-               }
-
-               whatToSay = response.Knocks;
+            if (isSentence)
+            {
+               whatToSay = response.Intros(userInput);
 
                if (!isEmpty(whatToSay))
                {
                    Console.WriteLine(whatToSay);
                }
 
-               whatToSay = response.Questions;
+               whatToSay = response.Knocks(userInput);
 
-               
+               if (!isEmpty(whatToSay))
+               {
+                   Console.WriteLine(whatToSay);
+               }
+
+               whatToSay = response.Questions(userInput);
+
+               if (!isEmpty(whatToSay))
+               {
+                   Console.WriteLine("I understood what you said, just I don't know how to reply to that...weird...JAMAL FIX ME!");
+                   lastBotInput = "I understood what you said, just I don't know how to reply to that...weird...JAMAL FIX ME!";
+               }       
            }
 
            else
            {
-               Console.WriteLine(BotReply);
+               Console.WriteLine("I don't understand? ARE U SPEAKING ENGLISH");
 
-               lastBotInput = BotReply;
+               lastBotInput = "I don't understand? ARE U SPEAKING ENGLISH";
            }
         }
 
