@@ -18,5 +18,7 @@ namespace jcoleman_Capstone_JokeBot.RecognizedWords
         Hiya,
         Whazzup,
         Yo,
+        knockknock,
+        KnockKnock
     }
 }

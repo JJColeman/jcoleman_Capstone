@@ -44,11 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Converter.cs" />
+    <Compile Include="KnockKnock.cs" />
     <Compile Include="ParseTrees\GreetingTree.cs" />
     <Compile Include="ParseTrees\KnockKnockTree.cs" />
     <Compile Include="ParseTrees\Node.cs" />
     <Compile Include="ParseTrees\Tree.cs" />
     <Compile Include="RecognizedWords\Articles.cs" />
+    <Compile Include="RecognizedWords\Confirm.cs" />
     <Compile Include="RecognizedWords\Greeting.cs" />
     <Compile Include="RecognizedWords\Nouns.cs" />
     <Compile Include="RecognizedWords\Preposition.cs" />
@@ -57,7 +59,6 @@
     <Compile Include="RecognizedWords\Verbs.cs" />
     <Compile Include="JokeBot.cs" />
     <Compile Include="Replies\Introduction.cs" />
-    <Compile Include="Replies\KnockKnock.cs" />
     <Compile Include="MainProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Replies\Question.cs" />

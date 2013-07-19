@@ -129,7 +129,7 @@ namespace jcoleman_Capstone_JokeBot
 
                     else
                     {
-                        
+                        notReduceOnce = false;
                     }
                 }
                 stringsleft++;

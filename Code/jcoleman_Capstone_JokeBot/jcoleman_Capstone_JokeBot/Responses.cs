@@ -12,7 +12,9 @@ namespace jcoleman_Capstone_JokeBot
 
         public string Knocks(string userInput)
         {
-            return "";
+            KnockKnock knock = new KnockKnock();
+            knock.KnockKnockListening(userInput);
+            return "I like knockknock jokes";
         }
 
         public string Intros(string userInput)
