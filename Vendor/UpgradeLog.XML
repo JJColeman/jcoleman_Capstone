@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FullBuild">
+</Property><Property Name="Solution File" Value="C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Vendor\FullBuild.sln">
+</Property><Property Name="Date" Value="Tuesday, July 23, 2013">
+</Property><Property Name="Time" Value="15:16 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="FullBuild.sln" Description="File successfully backed up as C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Vendor\Backup\FullBuild.sln">
+</Event><Event ErrorLevel="0" Project="FullBuild" Source="FullBuild.csproj" Description="Project file successfully backed up as C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Vendor\Backup\FullBuild.csproj">
+</Event><Event ErrorLevel="0" Project="FullBuild" Source="FullBuild.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FullBuild" Source="FullBuild.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="FullBuild.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FullBuild.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FullBuild" Source="FullBuild.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
