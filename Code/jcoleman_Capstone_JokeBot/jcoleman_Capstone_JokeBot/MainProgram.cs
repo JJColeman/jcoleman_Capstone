@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using OpenNLP.Tools.Parser;
+using OpenNLP.Tools.Util;
 
 namespace jcoleman_Capstone_JokeBot
 {
@@ -15,15 +17,19 @@ namespace jcoleman_Capstone_JokeBot
             Console.WriteLine("If done chatting with Jokebot, you may type in 'exit");
             bool dontExit = true;
 
-            while (dontExit)
-            {
-                string userInput = Console.ReadLine();
-                if(userInput.Equals("exit"))
-                {
-                    dontExit = false;
-                }
-                bot.Reply(userInput);
+            Span span = new Span(0,10);
+            Parse parse = new Parse("Hello, my name is Jamal", span, "noun", 0.0);
+            Console.WriteLine(parse.Show());
+            Console.ReadLine();
+
+           // while (dontExit)
+           // {
+            //    string userInput = Console.ReadLine();
+            //    if(userInput.Equals("exit"))
+            //    {
+            //        dontExit = false;
+            //    }
+            //    bot.Reply(userInput);
             }
         }
     }
-}
