@@ -1003,7 +1003,6 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/perceptron/BinaryPerceptronModelReader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025922" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/perceptron/BinaryPerceptronModelWriter.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025922" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/perceptron/PlainTextPerceptronModelReader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025922" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/BinToAscii.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025922" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/perceptron/PlainTextPerceptronModelWriter.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025922" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/eval/FMeasure.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025922" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/eval/Evaluator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025922" ignored="false" />
@@ -1032,7 +1031,6 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/model/PropertiesSerializer.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/model/GenericModelSerializer.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/model/UncloseableInputStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/chunker/ChunkerModel.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/doccat/DoccatTrainerTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/doccat/DoccatConverterTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/params/CVParams.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
@@ -1068,22 +1066,14 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/ad/ADNameSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/ad/ADChunkSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/parser/lang/en/HeadRules.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/ParserChunkerSequenceValidator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/parser/treeinsert/package-info.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/postag/POSTaggerTrainer.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/parser/treeinsert/BuildContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/parser/treeinsert/CheckContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/parser/ParserTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/parser/treeinsert/AttachContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/Parser.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/HeadRules.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/chunker/ChunkerConverterTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/GapLabeler.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/ad/ADChunkSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/ParserType.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/muc/SgmlParser.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/Constituent.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/ParserModel.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/tokenizer/CommandLineTokenizer.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/tokenizer/TokenizerModelLoader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/tokenizer/TokenizerTrainerTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025923" ignored="false" />
@@ -1096,21 +1086,11 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/tokenizer/TokenizerMEEvaluatorTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/tokenizer/DictionaryDetokenizerTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/tokenizer/TokenizerCrossValidatorTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/treeinsert/ParserEventStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/tokenizer/TokenEvaluationErrorListener.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/ParserFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/tokenizer/DetokenizationDictionaryLoader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/PosSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/ChunkSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/dictionary/DictionaryBuilderTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/ParseSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/AbstractBottomUpParser.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/AbstractContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/ParserEventTypeEnum.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/ChunkContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/tokenizer/TokenizerMETool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/sentdetect/TrainingParams.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/dictionary/serializer/DictionarySerializer.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/dictionary/DictionaryBuilderParams.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/sentdetect/SentenceDetectorTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/sentdetect/SentenceDetectorTrainerTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
@@ -1122,15 +1102,12 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/CmdLineTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/CmdLineUtil.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/ModelLoader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/dictionary/package-info.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/ArgumentParser.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/BasicCmdLineTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/TypedCmdLineTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/chunker/ChunkerCrossValidatorTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/dictionary/Dictionary.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/chunker/ChunkEvaluationErrorListener.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/chunker/ChunkerDetailedFMeasureListener.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/CLI.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/namefind/TrainingParams.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/parser/CheckModelUpdaterTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/tokenizer/SimpleTokenizerTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
@@ -1154,11 +1131,7 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/AbstractCrossValidatorTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/ad/ADSentenceStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/postag/POSContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/dictionary/serializer/Entry.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/postag/POSDictionaryWriter.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/dictionary/serializer/Attributes.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/postag/WordTagSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/dictionary/serializer/EntryInserter.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/postag/MutableTagDictionary.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/entitylinker/domain/LinkedSpan.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/postag/POSTaggerFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025924" ignored="false" />
@@ -1183,7 +1156,6 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/chunker/ChunkerEvaluationMonitor.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/entitylinker/MySQLUSGSGazEntry.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/doccat/TrainingParams.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/stemmer/Stemmer.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/chunker/DefaultChunkerContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/chunker/DefaultChunkerSequenceValidator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/doccat/DoccatTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
@@ -1195,23 +1167,13 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/postag/POSSampleSequenceStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/postag/POSTaggerCrossValidator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/postag/DefaultPOSContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/dictionary/Index.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/sentdetect/lang/th/SentenceContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/NameFinderEventStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/TokenNameFinderEvaluationMonitor.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/TokenNameFinderEvaluator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/DefaultNameContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/NameFinderSequenceValidator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/TokenNameFinderCrossValidator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/tokenize/lang/en/TokenSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/tokenize/lang/Factory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/TokenNameFinderModel.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/DocumentSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/SentenceSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/doccat/DoccatModelLoader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/NameSample.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/parser/TaggerModelReplacerTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/NameSampleTypeFilter.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/BioNLP2004NameSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/sentdetect/SentenceModelLoader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/LeipzigDoccatSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
@@ -1220,7 +1182,6 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/WordTagSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/AbstractSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/ConllXPOSSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/stemmer/PorterStemmer.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/muc/MucElementNames.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/muc/MucNameSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/muc/MucNameContentHandler.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
@@ -1237,25 +1198,16 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/NameFinderCensus90NameStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/LeipzigDocumentSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/DetokenizerSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/NameFinderME.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/package-info.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/muc/Muc6NameSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/RegexNameFinder.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/muc/DocumentSplitterStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/TokenNameFinder.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/brat/BratDocumentStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/DocumentNameFinder.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/brat/RelationAnnotation.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/DictionaryNameFinder.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/brat/BratAnnotationStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/NameContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/brat/BratNameSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/namefind/NameSampleDataStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/brat/SegmenterObjectStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/LanguageSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/NameSampleDataStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/TokenSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/package-info.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/postag/POSModel.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025925" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/ChunkerSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/postag/POSSample.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
@@ -1279,16 +1231,12 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/chunker/ChunkerModelLoader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/cmdline/chunker/ChunkerTrainerTool.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/TrainEval.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/GISModel.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/Evalable.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/BinaryQNModelReader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/doccat/DocumentCategorizerME.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025929" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/doccat/NGramFeatureGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/doccat/BagOfWordsFeatureGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/parser/chunking/CheckContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/Cons.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/Parse.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/parser/treeinsert/Parser.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/doccat/DoccatModel.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/doccat/package-info.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/quasinewton/LineSearch.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
@@ -1305,17 +1253,13 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/parser/chunking/Parser.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/quasinewton/QNModel.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/parser/chunking/package-info.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/Main.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/parser/chunking/BuildContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/GIS.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/DataStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/SuffixSensitiveGISModelWriter.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/SuffixSensitiveGISModelReader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/PlainTextGISModelWriter.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/PlainTextGISModelReader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/featuregen/FeatureGeneratorAdapter.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/OldFormatGISModelReader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/PooledGISModelReader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/ObjectGISModelWriter.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/ObjectGISModelReader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/doccat/DocumentCategorizerEvaluator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
@@ -1340,17 +1284,14 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/featuregen/PreviousMapFeatureGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/QNModelReader.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/featuregen/OutcomePriorFeatureGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/BinToAscii.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/featuregen/TokenPatternFeatureGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/featuregen/CharacterNgramFeatureGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/featuregen/FastTokenClassFeatureGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025926" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/featuregen/FeatureGeneratorResourceProvider.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/featuregen/AdditionalContextFeatureGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/ModelApplier.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/eval/CrossValidationPartitioner.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/DoubleStringPair.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/PlainTextByLineDataStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/ml/perceptron/PerceptronModel.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/perceptron/SimplePerceptronSequenceTrainer.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/util/eval/Mean.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/ad/ADNameSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
@@ -1365,21 +1306,21 @@
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/convert/ParseToPOSSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/lang/spanish/package-info.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/convert/POSToTokenSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/lang/spanish/TokenChunker.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/convert/AbstractToSentenceSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/convert/NameToTokenSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/RealBasicEventStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/convert/ParseToTokenSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/frenchtreebank/ConstitParseSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/frenchtreebank/ConstitParseSampleStreamFactory.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/BasicContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
-    <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/ModelTrainer.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/BasicEventStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/ContextGenerator.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/ml/maxent/DomainToModelMap.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="$PROJECT_DIR$/src/opennlp/tools/formats/convert/POSToTokenSampleStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374727025927" ignored="false" />
     <file path="/ParserEventStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374728318853" ignored="false" />
-    <file path="/SUPERTEST.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374734265902" ignored="false" />
+    <file path="/SUPERTEST.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374782689150" ignored="false" />
+    <file path="/MainProgram.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374786126591" ignored="false" />
+    <file path="/JokeBot.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374790884288" ignored="false" />
+    <file path="/fragment.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374787752882" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1397,7 +1338,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -1434,6 +1374,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -1443,10 +1384,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FeatureGeneratorFactorySerializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/FeatureGeneratorFactorySerializer.java">
+      <file leaf-file-name="SUPERTEST.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SUPERTEST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="21" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0">
+            <state line="25" column="48" selection-start="802" selection-end="802" vertical-scroll-proportion="0.17258064">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/Parse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="24" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainProgram.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="14" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1454,12 +1413,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SUPERTEST.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SUPERTEST.java">
+      <file leaf-file-name="Dictionary.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/dictionary/Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="44" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.5588235">
+            <state line="41" column="13" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="15" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entry.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/dictionary/serializer/Entry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="13" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DictionarySerializer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/dictionary/serializer/DictionarySerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="13" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#10382#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2239#2247#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1468,43 +1456,7 @@
       <file leaf-file-name="BaseModel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/BaseModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="0" selection-start="6321" selection-end="6321" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SentenceDetectorME.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/sentdetect/SentenceDetectorME.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="10" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SentenceDetector.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/sentdetect/SentenceDetector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="17" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SentenceSample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/sentdetect/SentenceSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="13" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SentenceSampleStream.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/sentdetect/SentenceSampleStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="13" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
+            <state line="490" column="0" selection-start="16756" selection-end="16756" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1519,26 +1471,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeHeap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/TreeHeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="13" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GISModelWriter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/GISModelWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#5269#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -1549,7 +1481,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/OpenSource/opennlp-uima/src/main/java/opennlp/uima/tokenize/SimpleTokenizer.java" />
         <option value="$PROJECT_DIR$/src/tools/ml/model/Event.java" />
         <option value="$PROJECT_DIR$/src/tools/postag/POSTaggerME.java" />
         <option value="$PROJECT_DIR$/src/tools/postag/POSSample.java" />
@@ -1562,7 +1493,10 @@
         <option value="$PROJECT_DIR$/src/tools/util/BeamSearch.java" />
         <option value="$PROJECT_DIR$/src/opennlp/tools/ml/model/Event.java" />
         <option value="$PROJECT_DIR$/src/opennlp/tools/parser/chunking/ParserEventStream.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/MainProgram.java" />
         <option value="$PROJECT_DIR$/src/SUPERTEST.java" />
+        <option value="$PROJECT_DIR$/src/JokeBot.java" />
       </list>
     </option>
   </component>
@@ -1638,6 +1572,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jcoleman_Capstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1656,6 +1608,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -1665,22 +1618,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\src\models" />
       <recent name="C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\src" />
+      <recent name="C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\src\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SUPERTEST">
-    <configuration default="false" name="SUPERTEST" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.MainProgram">
+    <configuration default="false" name="MainProgram" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="SUPERTEST" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="MainProgram" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -1788,11 +1741,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.SUPERTEST" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MainProgram" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.SUPERTEST" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MainProgram" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1826,35 +1779,55 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39954597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23496027" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23496027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39420936" sideWeight="0.77185017" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2951002" sideWeight="0.77185017" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22814983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1922,71 +1895,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/HashSumEventStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="22" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/ext/ExtensionServiceKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/ext/OSGiExtensionLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="24" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/AbstractParserEventStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="41" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/namefind/NameSampleSequenceStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="41" selection-start="3140" selection-end="3140" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/chunking/ParserEventStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="31" selection-start="7186" selection-end="7186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/ml/maxent/io/GISModelWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#5269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/TreeHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/FeatureGeneratorFactorySerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="31" column="21" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/opennlp/tools/sentdetect/SentenceDetector.java">
@@ -1998,9 +1909,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/opennlp/tools/sentdetect/SentenceSampleStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="32" column="13" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/opennlp/tools/sentdetect/SentenceSample.java">
@@ -2017,13 +1926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="0" selection-start="6321" selection-end="6321" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/opennlp/tools/sentdetect/SentenceModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="0" selection-start="3773" selection-end="3773" vertical-scroll-proportion="0.0">
@@ -2031,12 +1933,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SUPERTEST.java">
+    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/BaseModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.5588235">
+        <state line="490" column="0" selection-start="16756" selection-end="16756" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/dictionary/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="13" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/dictionary/serializer/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="13" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/dictionary/serializer/Attributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/dictionary/serializer/DictionarySerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="13" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#10382#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2239#2247#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="15" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="24" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="14" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JokeBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="23" selection-start="3016" selection-end="3016" vertical-scroll-proportion="0.5075107">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SUPERTEST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="48" selection-start="802" selection-end="802" vertical-scroll-proportion="0.17258064">
+          <folding />
         </state>
       </provider>
     </entry>
