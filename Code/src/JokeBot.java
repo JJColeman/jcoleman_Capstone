@@ -7,6 +7,9 @@ import opennlp.tools.tokenize.TokenizerModel;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Random;
+import java.util.Scanner;
+
 /**
  * Created with IntelliJ IDEA.
  * User: jcoleman
@@ -98,9 +101,56 @@ public class JokeBot
                 hasBeenUpTo = true;
                 reply = "Interesting " + userName + " , want to hear a joke?";
             }
+
+            else if(hasBeenUpTo)
+            {
+                KnockKnock();
+                userKnockKnock();
+
+                reply = "Pretty funny, you got me";
+            }
         }
 
         return reply;
+    }
+
+    public void KnockKnock()
+    {
+        System.out.println("knock knock");
+        Scanner scan = new Scanner(System.in);
+        String userInput = scan.nextLine();
+        if(userInput.equals("whos there"))
+        {
+            Random random = new Random();
+            int i = random.nextInt(3);
+            String[] replyKnockKnock1 = {"Cash","Doris","Honey bee"};
+            String[] replyKnockKnock2 = {"No thanks, but I would like a peanut instead","Doris locked, that's why I'm knocking!","Honey bee a dear and get me a soda!"};
+            System.out.println(replyKnockKnock1[i]);
+            String userInputWho = scan.nextLine();
+            if(userInputWho.equals(replyKnockKnock1[i] + " who"))
+            {
+                System.out.println(replyKnockKnock2[i]);
+                System.out.println("Funny right?, now you try a knock knock joke");
+            }
+
+            else
+            {
+                System.out.println("You mess up the joke -_-, well you try then...say knock knock");
+            }
+        }
+    }
+
+    public void userKnockKnock()
+    {
+        Scanner scan = new Scanner(System.in);
+        String userInput = scan.nextLine();
+        if(userInput.equals("knock knock"))
+        {
+            System.out.println("whos there");
+        }
+        String userWhoThereReply = scan.nextLine();
+        System.out.println(userWhoThereReply + " who");
+        String userLastReply = scan.nextLine();
     }
 
     public boolean isGreeting(String userInputWord)
@@ -124,5 +174,11 @@ public class JokeBot
                 userInputWord.equals("old") ||
                 userInputWord.equals("seen");
     }
+
+    public void isKnockKnock(String userInputWord)
+    {
+
+    }
+
 
 }
