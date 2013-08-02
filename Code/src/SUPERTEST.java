@@ -24,9 +24,7 @@ import java.io.InputStream;
 public class SUPERTEST
 {
     public static void main(String [] args) throws IOException {
-        String paragraph =
-                "Certainly elsewhere my do allowance at. The address farther six hearted hundred towards husband. Are securing off occasion remember daughter replying. Held that feel his see own yet. Strangers ye to he sometimes propriety in. She right plate seven has. Bed who perceive judgment did marianne. \n";
-        String fakeParagrah = "jkjfka;jdsajf";
+        String paragraph = "the train is late.";
         SentenceDetector sentenceDetector;
         Tokenizer tokenizer;
         InputStream modelSD = new FileInputStream("src/en-sent.bin");
@@ -34,13 +32,13 @@ public class SUPERTEST
         InputStream modelParser = new FileInputStream("src/en-parser-chunking.bin");
         ParserModel parserModel = new ParserModel(modelParser);
         Parser parser = ParserFactory.create(parserModel);
-        Parse parse[] = ParserTool.parseLine(fakeParagrah,parser,1);
+        Parse parse[] = ParserTool.parseLine(paragraph,parser,1);
         SentenceModel sentenceModel = new SentenceModel(modelSD);
         sentenceDetector = new SentenceDetectorME(sentenceModel);
         TokenizerModel tokenizerModel = new TokenizerModel(modelTK);
         tokenizer = new TokenizerME(tokenizerModel);
 
-        String[] strings1 = sentenceDetector.sentDetect(fakeParagrah);
+        String[] strings1 = sentenceDetector.sentDetect(paragraph);
         String[] strings2 = tokenizer.tokenize(paragraph);
 
         for(String s: strings1)
@@ -53,9 +51,8 @@ public class SUPERTEST
             System.out.println(s);
         }
 
-
-
         modelSD.close();
         modelTK.close();
+        modelParser.close();
     }
 }

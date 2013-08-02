@@ -30,7 +30,7 @@ public class MainProgram
 
             else
             {
-                System.out.println(jokeBot.replyToUser(userInput));
+                jokeBot.replyToUser(userInput);
             }
         }
     }
