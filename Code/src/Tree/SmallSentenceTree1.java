@@ -18,9 +18,21 @@ import java.io.InputStream;
  */
 public class SmallSentenceTree1 extends Tree{
 
+    Parser parser;
+
     public SmallSentenceTree1()
     {
+        try
+        {
+            InputStream modelParser = new FileInputStream("src/en-parser-chunking.bin");
+            ParserModel parserModel = new ParserModel(modelParser);
+            parser = ParserFactory.create(parserModel);
+        }
 
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -30,10 +42,6 @@ public class SmallSentenceTree1 extends Tree{
 
         try
         {
-
-        InputStream modelParser = new FileInputStream("src/en-parser-chunking.bin");
-        ParserModel parserModel = new ParserModel(modelParser);
-        Parser parser = ParserFactory.create(parserModel);
 
         Parse parse[] = ParserTool.parseLine(sentence,parser,1);
         String s = parse[0].getChildren()[0].getType();
@@ -58,13 +66,10 @@ public class SmallSentenceTree1 extends Tree{
         {
             String stripNoun = "";
             String stringVerb = "";
-            InputStream modelParser = new FileInputStream("src/en-parser-chunking.bin");
-            ParserModel parserModel = new ParserModel(modelParser);
-            Parser parser = ParserFactory.create(parserModel);
-
             Parse parse[] = ParserTool.parseLine(sentence,parser,1);
-            stripNoun = grabNoun(parse[0].getChildren());
-            stringVerb = grabVerb(parse[0].getChildren());
+            Parse[] parserChildren = parse[0].getChildren();
+            stripNoun = grabNoun(parserChildren);
+            stringVerb = grabVerb(parserChildren);
             String reply = "Interesting that the " + stripNoun + " " + stringVerb;
             System.out.println(reply);
         }
