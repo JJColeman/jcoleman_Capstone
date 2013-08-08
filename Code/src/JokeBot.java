@@ -1,4 +1,5 @@
-import Tree.SmallSentenceTree1;
+import Tree.Greetings.GreetingTree1;
+import Tree.SmallSentence.SmallSentenceTree1;
 import opennlp.tools.sentdetect.SentenceDetector;
 import opennlp.tools.sentdetect.SentenceDetectorME;
 import opennlp.tools.sentdetect.SentenceModel;
@@ -47,13 +48,16 @@ public class JokeBot
 
     public void checkTrees(String sentence)
     {
-       SmallSentenceTree1 smallSentenceTree = new SmallSentenceTree1();
+        SmallSentenceTree1 smallSentenceTree1 = new SmallSentenceTree1();
+        GreetingTree1 greetingTree = new GreetingTree1();
 
-       boolean isSentence = smallSentenceTree.isSentence(sentence);
+        boolean isSentence = smallSentenceTree1.isSentence(sentence);
 
-       if(isSentence)
-       {
-           smallSentenceTree.Reply(sentence);
-       }
+        if(isSentence)
+        {
+           smallSentenceTree1.Reply(sentence);
+        }
+
+        isSentence = greetingTree.isSentence(sentence);
     }
 }

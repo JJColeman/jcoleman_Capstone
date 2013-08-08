@@ -1,5 +1,14 @@
 package Tree;
 
+import opennlp.tools.cmdline.parser.ParserTool;
+import opennlp.tools.parser.Parse;
+import opennlp.tools.parser.Parser;
+import opennlp.tools.parser.ParserFactory;
+import opennlp.tools.parser.ParserModel;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
 /**
  * Created with IntelliJ IDEA.
  * User: jcoleman
@@ -9,11 +18,22 @@ package Tree;
  */
 public class Tree
 {
-    private Node startingNode;
+    public Node startingNode;
+    public Parser parser;
 
     public Tree()
     {
+        try
+        {
+            InputStream modelParser = new FileInputStream("src/en-parser-chunking.bin");
+            ParserModel parserModel = new ParserModel(modelParser);
+            parser = ParserFactory.create(parserModel);
+        }
 
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
     }
 
     public Node getStartingNode()
@@ -26,11 +46,31 @@ public class Tree
         this.startingNode = startingNode;
     }
 
-    public boolean isSentence(String words)
+    public boolean isSentence(String sentence)
     {
         boolean foundSentence = false;
+
+        try
+        {
+            Parse parse[] = ParserTool.parseLine(sentence, parser, 1);
+            String s = parse[0].getChildren()[0].getType();
+
+            if(s.equals("S"))
+            {
+                foundSentence = true;
+            }
+        }
+
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
 
         return foundSentence;
     }
 
+    public void Reply(String sentence)
+    {
+
+    }
 }

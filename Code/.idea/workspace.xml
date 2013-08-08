@@ -1307,13 +1307,14 @@
     <file path="/ParserEventStream.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374728318853" ignored="false" />
     <file path="/SUPERTEST.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375423482619" ignored="false" />
     <file path="/MainProgram.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375417473296" ignored="false" />
-    <file path="/JokeBot.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375426479527" ignored="false" />
+    <file path="/JokeBot.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375997774923" ignored="false" />
     <file path="/fragment.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1374787752882" ignored="false" />
     <file path="/Node.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375400134194" ignored="false" />
-    <file path="/Tree.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375401114610" ignored="false" />
+    <file path="/Tree.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375999227043" ignored="false" />
     <file path="/SmallSentence.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375401011855" ignored="false" />
     <file path="/SmallSentenceTree.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375428837287" ignored="false" />
-    <file path="/SmallSentenceTree1.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375490526641" ignored="false" />
+    <file path="/SmallSentenceTree1.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375997488686" ignored="false" />
+    <file path="/GreetingTree.java" changelist="ed2292ae-6cc7-43bb-ad40-29c8f3eeb178" time="1375997637314" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1368,6 +1369,38 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree1.java" line="60" class="Tree.SmallSentence.SmallSentenceTree1" package="Tree.SmallSentence">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/SUPERTEST.java" line="41" class="SUPERTEST" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -1377,22 +1410,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaseModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/BaseModel.java">
+      <file leaf-file-name="SmallSentenceTree1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="562" column="43" selection-start="18662" selection-end="18662" vertical-scroll-proportion="0.0">
+            <state line="33" column="41" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmallSentenceTree1.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tree/SmallSentenceTree1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="5" selection-start="1848" selection-end="1848" vertical-scroll-proportion="1.00982">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -1400,25 +1422,16 @@
       <file leaf-file-name="JokeBot.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JokeBot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="30" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0">
+            <state line="52" column="0" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DictionarySerializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/DictionarySerializer.java">
+      <file leaf-file-name="GreetingTree2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/Greetings/GreetingTree2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertiesSerializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/PropertiesSerializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
+            <state line="5" column="17" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1427,7 +1440,43 @@
       <file leaf-file-name="SUPERTEST.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SUPERTEST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1914" selection-end="1914" vertical-scroll-proportion="0.0">
+            <state line="47" column="17" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmallSentenceTree4.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="4" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReplyTree.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/Reply/ReplyTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="42" selection-start="204" selection-end="204" vertical-scroll-proportion="0.4623431">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmallSentenceTree2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmallSentenceTree3.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="4" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1436,8 +1485,10 @@
       <file leaf-file-name="Tree.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="34" column="33" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1445,7 +1496,7 @@
       <file leaf-file-name="MainProgram.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="49" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+            <state line="26" column="13" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1461,27 +1512,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/tools/postag/POSTagger.java" />
-        <option value="$PROJECT_DIR$/src/tools/postag/POSTaggerFactory.java" />
-        <option value="$PROJECT_DIR$/src/tools/util/BeamSearch.java" />
-        <option value="$PROJECT_DIR$/src/opennlp/tools/ml/model/Event.java" />
-        <option value="$PROJECT_DIR$/src/opennlp/tools/parser/chunking/ParserEventStream.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Tree/Symbol.java" />
         <option value="$PROJECT_DIR$/src/Symbols/Symbol.java" />
         <option value="$PROJECT_DIR$/src/Tree/Node.java" />
         <option value="$PROJECT_DIR$/src/Tree/SmallSentence.java" />
         <option value="$PROJECT_DIR$/src/MainProgram.java" />
         <option value="$PROJECT_DIR$/src/Tree/SmallSentenceTree.java" />
-        <option value="$PROJECT_DIR$/src/SUPERTEST.java" />
-        <option value="$PROJECT_DIR$/src/Tree/Tree.java" />
-        <option value="$PROJECT_DIR$/src/JokeBot.java" />
         <option value="$PROJECT_DIR$/src/Tree/SmallSentenceTree1.java" />
+        <option value="$PROJECT_DIR$/src/Tree/GreetingTree.java" />
+        <option value="$PROJECT_DIR$/src/JokeBot.java" />
+        <option value="$PROJECT_DIR$/src/Tree/GreetingTree2.java" />
+        <option value="$PROJECT_DIR$/src/Tree/Greetings/GreetingTree2.java" />
+        <option value="$PROJECT_DIR$/src/Tree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/Tree/Reply/ReplyTree.java" />
+        <option value="$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree2.java" />
+        <option value="$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree3.java" />
+        <option value="$PROJECT_DIR$/src/SUPERTEST.java" />
+        <option value="$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree4.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1590" />
+    <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -1510,8 +1561,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1601,7 +1652,7 @@
       <recent name="C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainProgram">
+  <component name="RunManager" selected="Application.SUPERTEST">
     <configuration default="false" name="MainProgram" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MainProgram" />
@@ -1745,8 +1796,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainProgram" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SUPERTEST" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SUPERTEST" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainProgram" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1801,7 +1852,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1590" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1809,7 +1860,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.276958" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35641316" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1822,12 +1873,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15052356" sideWeight="0.723042" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37639198" sideWeight="0.6435868" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22020431" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1896,19 +1947,32 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/PropertiesSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="15" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0" />
+        <state line="28" column="0" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/ParserChunkerSequenceValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/BaseModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" />
+        <state line="562" column="40" selection-start="18662" selection-end="18662" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/ParserFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/Parse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0" />
+        <state line="490" column="0" selection-start="14394" selection-end="14394" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_05/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1088" column="0" selection-start="33390" selection-end="33390" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/Node.java">
@@ -1918,85 +1982,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/ParserModel.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/Greetings/GreetingTree1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="0" selection-start="5801" selection-end="5801" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/GenericModelSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/DictionarySerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/PropertiesSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_05/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1088" column="0" selection-start="33390" selection-end="33390" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/parser/Parse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="490" column="0" selection-start="14394" selection-end="14394" vertical-scroll-proportion="0.3207856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/opennlp/tools/util/model/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="562" column="43" selection-start="18662" selection-end="18662" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SUPERTEST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1914" selection-end="1914" vertical-scroll-proportion="0.0">
+        <state line="16" column="5" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="49" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+        <state line="26" column="13" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JokeBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="30" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0">
+        <state line="52" column="0" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/SmallSentenceTree1.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/Greetings/GreetingTree2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="5" selection-start="1848" selection-end="1848" vertical-scroll-proportion="1.00982">
+        <state line="5" column="17" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="33" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="41" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SUPERTEST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="17" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/SmallSentence/SmallSentenceTree4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/Reply/ReplyTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="204" selection-end="204" vertical-scroll-proportion="0.4623431">
+          <folding />
         </state>
       </provider>
     </entry>
