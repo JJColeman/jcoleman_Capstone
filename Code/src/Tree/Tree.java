@@ -23,17 +23,7 @@ public class Tree
 
     public Tree()
     {
-        try
-        {
-            InputStream modelParser = new FileInputStream("src/en-parser-chunking.bin");
-            ParserModel parserModel = new ParserModel(modelParser);
-            parser = ParserFactory.create(parserModel);
-        }
 
-        catch(Exception e)
-        {
-            e.printStackTrace();
-        }
     }
 
     public Node getStartingNode()
@@ -46,7 +36,7 @@ public class Tree
         this.startingNode = startingNode;
     }
 
-    public boolean isSentence(String sentence)
+    public boolean isParsable(String sentence)
     {
         boolean foundSentence = false;
 

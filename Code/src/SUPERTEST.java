@@ -24,7 +24,7 @@ import java.io.InputStream;
 public class SUPERTEST
 {
     public static void main(String [] args) throws IOException {
-        String paragraph = "She has bad feet";
+        String paragraph = "She has small feet";
         SentenceDetector sentenceDetector;
         Tokenizer tokenizer;
         InputStream modelSD = new FileInputStream("src/en-sent.bin");

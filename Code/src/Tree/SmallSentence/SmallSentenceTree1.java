@@ -35,8 +35,9 @@ public class SmallSentenceTree1 extends Tree{
             Parse[] parserChildren = parse[0].getChildren();
             stripNoun = grabNoun(parserChildren);
             stringVerb = grabVerb(parserChildren);
-            //stringAdjective = grabAdjective(parserChildren);
-            String reply = "Interesting that the " + stripNoun + " " + stringVerb;
+            stringAdjective = grabAdjective(parserChildren);
+            String reply = "Interesting why a" + stripNoun + " " + stringVerb + " " + stringAdjective;
+
             System.out.println(reply);
         }
 
@@ -44,6 +45,69 @@ public class SmallSentenceTree1 extends Tree{
         {
             e.printStackTrace();
         }
+    }
+
+    public boolean checkReply(String stripNoun,String stripVerb,String stripAdjective)
+    {
+        return stripNoun.equals("") || stripAdjective.equals("") || stripVerb.equals("");
+    }
+
+    public String grabAdjective(Parse[] children)
+    {
+        String grabbedAdjective = "";
+        boolean isNotFound = true;
+        int nextChild = 0;
+
+        while(isNotFound)
+        {
+            if(children[nextChild].getType().equals("ADJP"))
+            {
+                String[] NounSymbols = new String[]{"JJ","JJR","JJS"};
+
+                Parse[] parseGrandChildren = children[nextChild].getChildren();
+
+                for(int i = 0; i < parseGrandChildren.length;i++)
+                {
+                    for(String symbols: NounSymbols)
+                    {
+                        if(parseGrandChildren[i].getType().equals(symbols))
+                        {
+                            grabbedAdjective = parseGrandChildren[i].toString();
+                            isNotFound = false;
+                        }
+                    }
+                }
+            }
+
+            else if((nextChild + 1) == children.length)
+            {
+                isNotFound = false;
+                for(int i = 0; i < children.length;i++)
+                {
+                    if(children[i].getChildren().length == 0)
+                    {
+
+                    }
+
+                    else
+                    {
+                        grabbedAdjective = grabAdjective(children[i].getChildren());
+                    }
+
+                    if(!grabbedAdjective.equals(""))
+                    {
+                        i = children.length;
+                    }
+                }
+            }
+
+            else
+            {
+                nextChild++;
+            }
+        }
+
+        return grabbedAdjective;
     }
 
     public String grabNoun(Parse[] children)

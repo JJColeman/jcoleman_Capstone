@@ -1,6 +1,8 @@
 package Tree.Greetings;
 
 import Tree.Tree;
+import opennlp.tools.cmdline.parser.ParserTool;
+import opennlp.tools.parser.Parse;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,4 +17,36 @@ public class GreetingTree1 extends Tree
     {
         super();
     }
+
+    @Override
+    public void Reply(String sentence)
+    {
+        System.out.println("Hello!");
+    }
+
+    @Override
+    public boolean isParsable(String sentence)
+    {
+        boolean foundSentence = false;
+
+        try
+        {
+            Parse parse[] = ParserTool.parseLine(sentence, parser, 1);
+            String s = parse[0].getChildren()[0].getType();
+
+            if(s.equals("UH") &&
+                    (!sentence.equals("Yes") && !sentence.equals("yes") && !sentence.equals("No") && !sentence.equals("no")))
+            {
+                foundSentence = true;
+            }
+        }
+
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+        return foundSentence;
+    }
+
 }
