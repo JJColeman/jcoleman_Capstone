@@ -1,0 +1,6 @@
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\ConsoleBot\obj\Debug\ConsoleBot.exe
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\ConsoleBot\obj\Debug\ConsoleBot.pdb
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\ConsoleBot\bin\Debug\ConsoleBot.exe
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\ConsoleBot\bin\Debug\ConsoleBot.pdb
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\ConsoleBot\bin\Debug\AIMLbot.pdb
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\ConsoleBot\obj\Debug\ConsoleBot.csprojResolveAssemblyReference.cache

@@ -89,8 +89,6 @@ public class JokeBot
         addParsersToTree(parser,smallSentenceTree3);
         SmallSentenceTree4 smallSentenceTree4 = new SmallSentenceTree4();
         addParsersToTree(parser,smallSentenceTree4);
-        SmallSentenceTree5 smallSentenceTree5 = new SmallSentenceTree5();
-        addParsersToTree(parser,smallSentenceTree5);
         ReplyTree replyTree = new ReplyTree();
         addParsersToTree(parser,replyTree);
 
@@ -100,7 +98,6 @@ public class JokeBot
         boolean isSentence2 = smallSentenceTree2.isParsable(sentence);
         boolean isSentence3 = smallSentenceTree3.isParsable(sentence);
         boolean isSentence4 = smallSentenceTree4.isParsable(sentence);
-        boolean isSentence5 = smallSentenceTree5.isParsable(sentence);
         boolean isReply = replyTree.isParsable(sentence);
 
         if(isGreeting1)
@@ -136,11 +133,6 @@ public class JokeBot
         else if(isSentence4)
         {
             smallSentenceTree4.Reply(sentence);
-        }
-
-        else if(isSentence5)
-        {
-            smallSentenceTree5.Reply(sentence);
         }
 
         else
