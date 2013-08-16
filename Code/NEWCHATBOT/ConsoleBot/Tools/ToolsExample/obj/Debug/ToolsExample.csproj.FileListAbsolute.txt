@@ -1,0 +1,3 @@
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\Tools\ToolsExample\obj\Debug\ToolsExample.MainForm.resources
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\Tools\ToolsExample\obj\Debug\ToolsExample.csproj.GenerateResource.Cache
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\Tools\ToolsExample\bin\Debug\ToolsExample.exe.config

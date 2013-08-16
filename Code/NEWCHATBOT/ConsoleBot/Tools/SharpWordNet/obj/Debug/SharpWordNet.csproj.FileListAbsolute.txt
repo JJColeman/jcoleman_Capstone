@@ -1,0 +1,4 @@
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\Tools\SharpWordNet\bin\Debug\SharpWordNet.dll
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\Tools\SharpWordNet\bin\Debug\SharpWordNet.pdb
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\Tools\SharpWordNet\obj\Debug\SharpWordNet.dll
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\Tools\SharpWordNet\obj\Debug\SharpWordNet.pdb

@@ -1,0 +1,1 @@
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\Tools\OpenNLP\obj\Debug\OpenNLP.csprojResolveAssemblyReference.cache

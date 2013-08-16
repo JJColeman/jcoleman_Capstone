@@ -9,12 +9,7 @@ namespace ConsoleBot
         static void Main(string[] args)
         {
 
-            using (WebClient client = new WebClient())
-            {
-                string htmlCode = client.DownloadString("http://words.bighugelabs.com/api/2/69523ee24f4ae7f7b0d01314944579de/fish/");
-                Console.WriteLine(htmlCode);
-            }
-
+            PunEngine punEngine = new PunEngine("hello");
             Bot myBot = new Bot();
             myBot.loadSettings();
             User myUser = new User("consoleUser", myBot);
