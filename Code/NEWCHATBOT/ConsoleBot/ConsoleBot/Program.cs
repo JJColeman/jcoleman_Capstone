@@ -25,6 +25,7 @@ namespace ConsoleBot
                 else
                 {
                     PunEngine punengine = new PunEngine(input);
+                    punengine.grabPun();
 
                     //Request r = new Request(input, myUser, myBot);
                     //Result res = myBot.Chat(r);

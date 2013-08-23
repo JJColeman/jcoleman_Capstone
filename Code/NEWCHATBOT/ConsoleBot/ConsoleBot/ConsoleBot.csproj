@@ -119,6 +119,7 @@
     <Content Include="bin\Debug\IKVM.OpenJDK.Util.dll" />
     <Content Include="bin\Debug\IKVM.OpenJDK.XML.API.dll" />
     <Content Include="bin\Debug\IKVM.Runtime.dll" />
+    <Content Include="bin\Debug\IKVM.Runtime.JNI.dll" />
     <Content Include="bin\Debug\opennlp.dll" />
   </ItemGroup>
   <ItemGroup>

@@ -6,6 +6,7 @@ using opennlp.tools.parser;
 using opennlp.tools.cmdline.parser;
 using java.io;
 using System.Reflection;
+using System.IO;
 
 namespace ConsoleBot
 {
@@ -27,12 +28,11 @@ namespace ConsoleBot
 
         public void setUpParser()
         {
-            var asm = Assembly.GetExecutingAssembly();
-            var stream = asm.GetManifestResourceStream("en-parser-chunking.bin");
-            var inp = new ikvm.io.InputStreamWrapper(stream);
-            InputStream modelParser = inp; 
-            parserModel = new ParserModel(modelParser);
+            string modelPath = "C:\\Users\\jcoleman\\Documents\\Capstone\\jcoleman_Capstone\\Code\\NEWCHATBOT\\ConsoleBot\\ConsoleBot\\en-parser-chunking.bin";
+            java.io.FileInputStream modelInpstream = new java.io.FileInputStream(modelPath);
+            parserModel = new ParserModel(modelInpstream);
             parser = ParserFactory.create(parserModel);
+            parse = ParserTool.parseLine(sentence, parser, 1);
         }
 
         public void grabPun()
@@ -47,7 +47,7 @@ namespace ConsoleBot
 
             foreach(Medival_Noun mNoun in medivalNounValues)
             {
-                if(grabbedNoun.Equals(mNoun))
+                if(grabbedNoun.Equals(mNoun.ToString()))
                 {
                     foundmedivalNoun = true;
                 }
