@@ -8,8 +8,6 @@ namespace ConsoleBot
     {
         static void Main(string[] args)
         {
-
-            PunEngine punEngine = new PunEngine("hello");
             Bot myBot = new Bot();
             myBot.loadSettings();
             User myUser = new User("consoleUser", myBot);
@@ -26,9 +24,11 @@ namespace ConsoleBot
                 }
                 else
                 {
-                    Request r = new Request(input, myUser, myBot);
-                    Result res = myBot.Chat(r);
-                    Console.WriteLine("Bot: " + res.Output);
+                    PunEngine punengine = new PunEngine(input);
+
+                    //Request r = new Request(input, myUser, myBot);
+                    //Result res = myBot.Chat(r);
+                    //Console.WriteLine("Bot: " + res.Output);
                 }
             }
         }
