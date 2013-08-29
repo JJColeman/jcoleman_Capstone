@@ -7,6 +7,9 @@ using opennlp.tools.cmdline.parser;
 using java.io;
 using System.Reflection;
 using System.IO;
+using ConsoleBot.DictionaryService;
+using System.Xml;
+using System.Net;
 
 namespace ConsoleBot
 {
@@ -14,7 +17,7 @@ namespace ConsoleBot
     {
         private string sentence { get; set; }
         private string word {get;set;}
-        private string synonms{get;set;}
+        public string synonms{get;set;}
         private List<string> grabbedSynonms { get; set; }
         private Parse[] parse { get; set;}
         private Parser parser {get; set;}
@@ -23,7 +26,7 @@ namespace ConsoleBot
         public PunEngine(string sentence)
         {
             this.sentence = sentence;
-            setUpParser();
+         //   setUpParser();
         }
 
         public void setUpParser()
@@ -255,11 +258,14 @@ namespace ConsoleBot
             {
                 string foundedSynonms = client.DownloadString("http://words.bighugelabs.com/api/2/69523ee24f4ae7f7b0d01314944579de/" + word + "/");  
                 this.synonms = foundedSynonms;
+                System.Console.WriteLine(this.synonms);
             }
         }
 
         public void seperateSynonms(string synonms)
         {
+            //NEEDS TO BE FIX
+            System.Console.WriteLine(synonms);
             string[] seperatedString = synonms.Split('|');
             
             int wordCount = 1;
@@ -281,8 +287,11 @@ namespace ConsoleBot
                     wordCount--;
                 }
             }
+
+            foreach (string l in grabbedSynonms)
+            {
+                System.Console.WriteLine(l);
+            }
         }
-
-
     }
 }
