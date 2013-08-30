@@ -3,6 +3,7 @@ using AIMLbot;
 using System.Net;
 using ConsoleBot.DictionaryService;
 using System.Web;
+using System.Collections.Generic;
 
 namespace ConsoleBot
 {
@@ -44,13 +45,26 @@ namespace ConsoleBot
                     using(WebClient client = new WebClient())
                     {
                         string line = client.DownloadString("http://api.wordnik.com/v4/word.json/"+input+"/definitions?limit=200&includeRelated=true&useCanonical=false&includeTags=false&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5");
-                        string[] lines1 = System.Text.RegularExpressions.Regex.Split(line,"\"text\":\"");
-                        string[] lines2 = System.Text.RegularExpressions.Regex.Split(lines1[1],"\",\"sequence\"[\\W\\w]+");
-                        Console.WriteLine(lines2[0]);
+                        if (!line.Equals("[]"))
+                        {
+                            string[] lines1 = System.Text.RegularExpressions.Regex.Split(line, "\"text\":\"");
+                            string[] lines2 = System.Text.RegularExpressions.Regex.Split(lines1[1], "\",\"sequence\"[\\W\\w]+");
+                            Console.WriteLine(lines2[0]);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Definition cannot be found, word is mispelled or doesn't exist within our current data");
+                        }
                     }
 
-                    
+                    Console.WriteLine("Recommend words to replace");
+                    List<string> selectedHomonyms = homonym.selectedHomonyms();
 
+                    foreach (string selectedWord in selectedHomonyms)
+                    {
+                        Console.Write(selectedWord + ",");
+                    }
+                   
                     //Request r = new Request(input, myUser, myBot);
                     //Result res = myBot.Chat(r);
                     //Console.WriteLine("Bot: " + res.Output);
