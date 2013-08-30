@@ -3,3 +3,4 @@ C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBo
 C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\ConsoleBot\bin\Debug\ConsoleBot.exe
 C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\ConsoleBot\bin\Debug\ConsoleBot.pdb
 C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\ConsoleBot\bin\Debug\ConsoleBot.exe.config
+C:\Users\jcoleman\Documents\Capstone\jcoleman_Capstone\Code\NEWCHATBOT\ConsoleBot\ConsoleBot\obj\Debug\ConsoleBot.csprojResolveAssemblyReference.cache

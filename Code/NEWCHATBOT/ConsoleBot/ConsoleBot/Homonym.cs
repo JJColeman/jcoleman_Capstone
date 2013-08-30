@@ -52,7 +52,8 @@ namespace ConsoleBot
         {
             char[] vowels = new char[] { 'a', 'e', 'i', 'o', 'u'};
             char[] lettersOfCurrentHomonym = currentHomonym.ToCharArray();
-            bool notDone = true;
+            bool notDone1 = true;
+            bool notDone2 = true;
             int rightMostVowel = 0;
 
             for (int i = 0; i < lettersOfCurrentHomonym.Length; i++)
@@ -63,7 +64,7 @@ namespace ConsoleBot
                 }
             }
 
-            while (notDone)
+            while (notDone1)
             {
                 if (isVowel(lettersOfCurrentHomonym[currentLeft]))
                 {
@@ -72,31 +73,59 @@ namespace ConsoleBot
                         string manupulatedHomonymCurrentLeft = currentHomonym;
                         char[] lettersOfManupulatedHomonymCurrentLeft = manupulatedHomonymCurrentLeft.ToCharArray();
                         lettersOfManupulatedHomonymCurrentLeft[currentLeft] = vowels[i];
+                        currentRight = currentLeft + 1;
 
-                        for (int a = currentLeft+1; a < vowels.Length; a++)
+                        if (currentLeft == rightMostVowel)
                         {
-                            if (isVowel(lettersOfManupulatedHomonymCurrentLeft[a]))
-                            {
-                                currentRight = a;
-                                if (currentRight == rightMostVowel)
-                                {
-                                    string manupulatedHomonymCurrentRight = lettersOfManupulatedHomonymCurrentLeft.ToString();
-                                    char[] lettersOfManupulatedHomonymCurrentRight = manupulatedHomonymCurrentRight.ToCharArray();
-                                    lettersOfManupulatedHomonymCurrentRight[currentRight] = vowels[a];
+                            bool abled1 = isChangeable(toChartoString(lettersOfManupulatedHomonymCurrentLeft));
 
-                                    if(isChangeable(lettersOfManupulatedHomonymCurrentRight.ToString()))
+                            if (abled1)
+                            {
+                                selectedHomonyms.Add(toChartoString(lettersOfManupulatedHomonymCurrentLeft));
+                            }
+                        }
+
+                        else
+                        {
+                            while (notDone2)
+                            {
+                                if (isVowel(lettersOfManupulatedHomonymCurrentLeft[currentRight]))
+                                {
+                                    for (int l = 0; l < vowels.Length; l++)
                                     {
-                                        selectedHomonyms.Add(lettersOfManupulatedHomonymCurrentRight.ToString());
+                                        string manupulatedHomonymCurrentRight = toChartoString(lettersOfManupulatedHomonymCurrentLeft);
+                                        char[] lettersOfManupulatedHomonymCurrentRight = manupulatedHomonymCurrentRight.ToCharArray();
+                                        lettersOfManupulatedHomonymCurrentRight[currentRight] = vowels[l];
+
+                                        if (currentRight == rightMostVowel)
+                                        {
+                                            bool abled2 = isChangeable(toChartoString(lettersOfManupulatedHomonymCurrentRight));
+
+                                            if (abled2)
+                                            {
+                                                selectedHomonyms.Add(toChartoString(lettersOfManupulatedHomonymCurrentRight));
+                                            }
+                                        }
+
+                                        else
+                                        {
+                                            findPossiblePun(selectedHomonyms, currentHomonym, currentRight, 0);
+                                        }
                                     }
                                 }
 
                                 else
                                 {
-                                    findPossiblePun(selectedHomonyms,currentHomonym,currentRight,0);
+                                    currentRight++;
+                                    if ((currentRight + 1) == currentHomonym.Length)
+                                    {
+                                        notDone2 = false;
+                                    }
                                 }
                             }
                         }
                     }
+                    currentLeft++;
                 }
 
                 else
@@ -104,7 +133,7 @@ namespace ConsoleBot
                     currentLeft++;
                     if((currentLeft+1) == currentHomonym.Length)
                     {
-                        notDone = false;
+                        notDone1 = false;
                     }
                 }
             }
@@ -126,13 +155,25 @@ namespace ConsoleBot
             return vowel;
         }
 
+        public string toChartoString(char[] turnIntoString)
+        {
+            string newString = "";
+
+            for(int i = 0; i < turnIntoString.Length;i++)
+            {
+                newString += turnIntoString[i];
+            }
+
+            return newString;
+        }
+
         public bool isChangeable(string currentManipulatedHomonym)
         {
             bool isChange;
             using (WebClient client = new WebClient())
             {
                 string line = client.DownloadString("http://api.wordnik.com/v4/word.json/" + currentManipulatedHomonym + "/definitions?limit=200&includeRelated=true&useCanonical=false&includeTags=false&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5");
-                if (!line.Equals("[]"))
+                if (line.Equals("[]"))
                 {
                     isChange = false;
                 }
