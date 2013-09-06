@@ -40,9 +40,9 @@ namespace ConsoleBot
         {
             List<string> selectedHomonyms = homonyms.ToList<string>();
 
-            foreach (string homonym in selectedHomonyms)
+            for (int i = 0; i < homonyms.Length; i++)
             {
-                findPossiblePun(selectedHomonyms, homonym, 0,0);
+                findPossiblePun(selectedHomonyms, homonyms[i], 0, 0);
             }
 
             return selectedHomonyms;
@@ -70,6 +70,7 @@ namespace ConsoleBot
                 {
                     for (int i = 0; i < vowels.Length; i++)
                     {
+                        notDone2 = true;
                         string manupulatedHomonymCurrentLeft = currentHomonym;
                         char[] lettersOfManupulatedHomonymCurrentLeft = manupulatedHomonymCurrentLeft.ToCharArray();
                         lettersOfManupulatedHomonymCurrentLeft[currentLeft] = vowels[i];
@@ -78,8 +79,9 @@ namespace ConsoleBot
                         if (currentLeft == rightMostVowel)
                         {
                             bool abled1 = isChangeable(toChartoString(lettersOfManupulatedHomonymCurrentLeft));
+                            bool already1 = isAlreadyInList(toChartoString(lettersOfManupulatedHomonymCurrentLeft), selectedHomonyms);
 
-                            if (abled1)
+                            if (abled1 && !already1)
                             {
                                 selectedHomonyms.Add(toChartoString(lettersOfManupulatedHomonymCurrentLeft));
                             }
@@ -100,8 +102,9 @@ namespace ConsoleBot
                                         if (currentRight == rightMostVowel)
                                         {
                                             bool abled2 = isChangeable(toChartoString(lettersOfManupulatedHomonymCurrentRight));
+                                            bool already2 = isAlreadyInList(toChartoString(lettersOfManupulatedHomonymCurrentRight), selectedHomonyms);
 
-                                            if (abled2)
+                                            if (abled2 && !already2)
                                             {
                                                 selectedHomonyms.Add(toChartoString(lettersOfManupulatedHomonymCurrentRight));
                                             }
@@ -109,15 +112,17 @@ namespace ConsoleBot
 
                                         else
                                         {
-                                            findPossiblePun(selectedHomonyms, currentHomonym, currentRight, 0);
+                                            findPossiblePun(selectedHomonyms, toChartoString(lettersOfManupulatedHomonymCurrentRight), currentRight, 0);
+                                            l = vowels.Length;
                                         }
                                     }
+                                    notDone2 = false;
                                 }
 
                                 else
                                 {
                                     currentRight++;
-                                    if ((currentRight + 1) == currentHomonym.Length)
+                                    if ((currentRight) == currentHomonym.Length)
                                     {
                                         notDone2 = false;
                                     }
@@ -126,12 +131,13 @@ namespace ConsoleBot
                         }
                     }
                     currentLeft++;
+                    notDone1 = false;
                 }
 
                 else
                 {
                     currentLeft++;
-                    if((currentLeft+1) == currentHomonym.Length)
+                    if((currentLeft) == currentHomonym.Length)
                     {
                         notDone1 = false;
                     }
@@ -185,6 +191,21 @@ namespace ConsoleBot
             }
 
             return isChange;
+        }
+
+        public bool isAlreadyInList(string currentManipulatedHomonym, List<string> selectedHomonyms)
+        {
+            bool isAlreadyIn = false;
+
+            foreach(string homonym in selectedHomonyms)
+            {
+                if(homonym.Equals(currentManipulatedHomonym))
+                {
+                    isAlreadyIn = true;
+                }
+            }
+
+            return isAlreadyIn;
         }
      }
 }
