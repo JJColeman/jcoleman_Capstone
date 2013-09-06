@@ -121,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\AIMLbot.dll" />
+    <Content Include="bin\Debug\ikvm-api.jar" />
     <Content Include="bin\Debug\IKVM.OpenJDK.Core.dll" />
     <Content Include="bin\Debug\IKVM.OpenJDK.Jdbc.dll" />
     <Content Include="bin\Debug\IKVM.OpenJDK.Text.dll" />
@@ -129,6 +130,7 @@
     <Content Include="bin\Debug\IKVM.Runtime.dll" />
     <Content Include="bin\Debug\IKVM.Runtime.JNI.dll" />
     <Content Include="bin\Debug\opennlp.dll" />
+    <None Include="en-sent.bin" />
     <None Include="Service References\DictionaryService\ConsoleBot.DictionaryService.Dictionary.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -156,7 +158,6 @@
     <None Include="bin\Debug\en-token.bin" />
     <None Include="en-chunker.bin" />
     <None Include="en-parser-chunking.bin" />
-    <None Include="en-sent.bin" />
     <None Include="en-token.bin" />
     <None Include="Service References\DictionaryService\DictService.wsdl" />
   </ItemGroup>
