@@ -18,7 +18,7 @@ namespace ConsoleBot
 
         public void startMenu()
         {
-            System.Console.WriteLine("Welcome to the Pun Engine");
+            System.Console.WriteLine("Welcome to the Pun Helper");
             bool usingStartMenu = true;
             while (usingStartMenu)
             {
@@ -341,6 +341,7 @@ namespace ConsoleBot
                     else if (int.Parse(userInput) == possiblePunSentencesArray.Length + 1)
                     {
                         isChoosingPossiblePunSentence = false;
+                        newPunSentence = currentSentence;
                     }
 
                     else
